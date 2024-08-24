@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
 
 * {
     margin: 0;
@@ -33,10 +33,10 @@ body {
     margin-top: 10px;
     border-radius: 10px;
     border: 2px solid black;
-    font-size: 80px;
+    font-size: 70px;
     text-align: left;
     padding: 5px;
-    font-family: 'Digital-7 Mono', sans-serif;
+    font-family: 'Digital Numbers', sans-serif;
 }
 
 .num, .op, .ad-op {
