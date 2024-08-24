@@ -18,7 +18,7 @@ function insertpoint() {
 }
 
 function allclear() {
-    display.style.fontSize = '100px';
+    display.style.fontSize = '80px';
     number = 0;
     display.innerText = number;
     ifPoint = false;
@@ -33,7 +33,7 @@ function allclear() {
 
 function insert(x) {
     if (x === 10) {
-        display.style.fontSize = '100px';
+        display.style.fontSize = '80px';
         number = 0;
         display.innerText = number;
         ifPoint = false;
@@ -58,7 +58,7 @@ function insert(x) {
             } 
         } else {
             if (number.toString().length < 8) {
-                display.style.fontSize = '100px';
+                display.style.fontSize = '80px';
                 number = number*10 + x;
                 display.innerText = number;
             }
