@@ -1,6 +1,6 @@
 @font-face {
     font-family: CalcFonts;
-    src: url("../../digital-7.mono.ttf");
+    src: url("../../digital-7.mono.ttf") format('truetype');
 }
 
 * {
