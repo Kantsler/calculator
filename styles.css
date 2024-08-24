@@ -36,7 +36,8 @@ body {
     font-size: 70px;
     text-align: left;
     padding: 5px;
-    font-family: 'LCD', sans-serif;
+    font-family: 'LCDMono2', sans-serif;
+    font-weight: 300;
 }
 
 .num, .op, .ad-op {
