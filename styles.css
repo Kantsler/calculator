@@ -1,7 +1,4 @@
-@font-face {
-    font-family: CalcFonts;
-    src: url("digital-7.mono.ttf") format('truetype');
-}
+@import url('https://fonts.cdnfonts.com/css/lcd');
 
 * {
     margin: 0;
@@ -39,7 +36,7 @@ body {
     font-size: 70px;
     text-align: left;
     padding: 5px;
-    font-family: CalcFonts;
+    font-family: 'LCD', sans-serif;
 }
 
 .num, .op, .ad-op {
