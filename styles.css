@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/sf-digital-readout');
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
 
 * {
     margin: 0;
@@ -36,7 +36,7 @@ body {
     font-size: 80px;
     text-align: left;
     padding: 5px;
-    font-family: 'SF Digital Readout', sans-serif;
+    font-family: 'Digital-7', sans-serif;
 }
 
 .num, .op, .ad-op {
