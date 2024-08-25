@@ -2,7 +2,6 @@ let display = document.getElementById("display");
 let number1 = 0;
 let number2 = 0;
 let ifPoint = false;
-let test = document.getElementById("test");
 let ifNumberOneSet = false;
 let number = 0;
 let operation = "";
