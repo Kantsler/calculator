@@ -2,7 +2,6 @@ let display = document.getElementById("display");
 let number1 = 0;
 let number2 = 0;
 let ifPoint = false;
-let test = document.getElementById("test");
 let ifNumberOneSet = false;
 let number = 0;
 let operation = "";
@@ -18,7 +17,7 @@ function insertpoint() {
 }
 
 function allclear() {
-    display.style.fontSize = '70px';
+    display.style.fontSize = '47px';
     number = 0;
     display.innerText = number;
     ifPoint = false;
@@ -33,7 +32,7 @@ function allclear() {
 
 function insert(x) {
     if (x === 10) {
-        display.style.fontSize = '70px';
+        display.style.fontSize = '47px';
         number = 0;
         display.innerText = number;
         ifPoint = false;
@@ -58,7 +57,7 @@ function insert(x) {
             } 
         } else {
             if (number.toString().length < 8) {
-                display.style.fontSize = '70px';
+                display.style.fontSize = '47px';
                 number = number*10 + x;
                 display.innerText = number;
             }
@@ -153,7 +152,7 @@ function factorial() {
         } else {
             if (number1 > 11) {
                 display.innerText = "Length Error";
-                display.style.fontSize = "49px";
+                display.style.fontSize = "30px";
             } else {
                 number1 = 1;
                 for (let i = 1; i <= otherNumber; i = i + 1) {
@@ -197,13 +196,13 @@ function equal() {
         number2 = number;
         number = 0;
         if (number2 === 0) {
-            display.style.fontSize = "30px";
+            display.style.fontSize = "21px";
             display.innerText = "Error: dividing by zero";
         } else {
             number = 0;
             if (Math.trunc(number1 * 100 / (number2 * per)).toString().length > 8) {
                 display.innerText = "Length Error";
-                display.style.fontSize = "49px";
+                display.style.fontSize = "35px";
             } else {
                 if (number1 * 100 / (number2 * per) === Math.trunc(number1 * 100 / (number2 * per))) {
                     number1 = (number1 * 100 / (number2 * per)).toFixed(0);
@@ -226,7 +225,7 @@ function equal() {
         number = 0;
         if (Math.trunc(number1 * number2 * per / 100).toString().length > 8) {
             display.innerText = "Length Error";
-            display.style.fontSize = "49px";
+            display.style.fontSize = "30px";
         } else {
             if (number1 * number2 * per / 100 === Math.trunc(number1 * number2 * per / 100)) {
                 number1 = (number1 * number2 * per / 100).toFixed(0);
@@ -248,7 +247,7 @@ function equal() {
         number = 0;
         if (Math.trunc(number1 * (100 - number2) / 100).toString().length > 8) {
             display.innerText = "Length Error";
-            display.style.fontSize = "49px";
+            display.style.fontSize = "30px";
         } else {
             if ((number1 * (100 - number2) / 100) === Math.trunc(number1 * (100 - number2) / 100)) {
                 number1 = (number1 * (100 - number2) / 100).toFixed(0);
@@ -268,7 +267,7 @@ function equal() {
         number = 0;
         if (Math.trunc(number1 - number2).toString().length > 8) {
             display.innerText = "Length Error";
-            display.style.fontSize = "49px";
+            display.style.fontSize = "30px";
         } else {
             if ((number1 - number2) === Math.trunc(number1 - number2)) {
                 number1 = (number1 - number2).toFixed(0);
@@ -290,7 +289,7 @@ function equal() {
         number = 0;
         if (Math.trunc(number1 * (100 + number2) / 100).toString().length > 8) {
             display.innerText = "Length Error";
-            display.style.fontSize = "49px";
+            display.style.fontSize = "30px";
         } else {
             if (number1 * (100 + number2) / 100 === Math.trunc(number1 * (100 + number2) / 100)) {
                 number1 = (number1 * (100 + number2) / 100).toFixed(0);
@@ -310,7 +309,7 @@ function equal() {
         number = 0;
         if (Math.trunc(number1 - -number2).toString().length > 8) {
             display.innerText = "Length Error";
-            display.style.fontSize = "49px";
+            display.style.fontSize = "30px";
         } else {
             if ((number1 - -number2) === Math.trunc(number1 - -number2)) {
                 number1 = (number1 - -number2).toFixed(0);
